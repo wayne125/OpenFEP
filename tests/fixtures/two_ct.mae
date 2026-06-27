@@ -1,0 +1,43 @@
+ f_m_ct {
+  s_m_title
+  s_fep_struc_tag
+  r_m_mass
+ :::
+  "Receptor protein"
+  receptor
+  12300.0
+ :::
+  m_atom[2] {
+   # First column is atom index #
+   i_m_mmod_type
+   :::
+   1 1
+   2 1
+   :::
+  }
+ }
+ f_m_ct {
+  s_m_title
+  s_fep_struc_tag
+  r_m_mass
+ :::
+  "Ligand A"
+  ligand
+  285.4
+ :::
+  m_atom[1] {
+   # First column is atom index #
+   i_m_mmod_type
+   :::
+   1 6
+   :::
+  }
+ }
+ f_m_ct {
+  s_m_title
+  r_m_mass
+ :::
+  "No tag CT"
+  500.0
+ :::
+ }

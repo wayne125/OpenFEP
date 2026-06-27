@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "openfep"
+version = "0.1.0"
+description = "Open-source FEP toolkit driving Schrodinger Desmond without proprietary Python stack"
+requires-python = ">=3.11"
+dependencies = [
+    "rdkit>=2023.9",
+    "networkx>=3.2",
+    "alchemlyb>=2.3",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "click>=8.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-cov"]
+
+[project.scripts]
+openfep = "openfep.cli:main"

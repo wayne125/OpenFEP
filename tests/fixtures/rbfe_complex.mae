@@ -1,0 +1,24 @@
+ f_m_ct {
+  s_m_title
+  s_fep_struc_tag
+  i_fep_net_charge
+  r_m_mass
+ :::
+  "Receptor"
+  receptor
+  0
+  12300.0
+ :::
+ }
+ f_m_ct {
+  s_m_title
+  s_fep_struc_tag
+  i_fep_net_charge
+  r_m_mass
+ :::
+  "LigandA"
+  ligand
+  0
+  285.4
+ :::
+ }

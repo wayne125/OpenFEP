@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual envs / conda
+.env
+.venv
+env/
+venv/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Pyright / mypy
+.pyright/
+.mypy_cache/
+
+# Schrodinger proprietary source (must never be committed)
+desmond/
+scisol/
+scisol-v6.1/
+ffld-v6.1/
+msj_generator/
+1.1/
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code internal
+.claude/
+
+# SDD internal (optional — uncomment to exclude)
+# .superpowers/
